@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.servicetitan.cordova.memorywarnings"
+        version="1.0.0">
+    <name>Memory Warnings plugin</name>
+    <description>Plugin for memory warnings on iOS</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, phonegap, servicetitan</keywords>
+    <repo></repo>
+    <issue></issue>
+
+    <js-module src="www/MemoryWarningsPlugin.js" name="MemoryWarningsPlugin">
+        <clobbers target="window.MemoryWarningsPlugin"/>
+    </js-module>
+
+    <platform name="ios" >
+        <config-file target="config.xml" parent="/*">
+            <feature name="MemoryWarningsPlugin">
+                <param name="ios-package" value="MemoryWarningsPlugin"/>
+            </feature>
+        </config-file>
+
+         <header-file src="src/ios/MemoryWarningsPlugin.h" target-dir="com/servicetitan/cordova/memorywarnings/"/>
+         <source-file src="src/ios/MemoryWarningsPlugin.m" target-dir="com/servicetitan/cordova/memorywarnings/"/>
+     </platform>
+</plugin>

@@ -1,0 +1,20 @@
+{
+  "name": "com.servicetitan.cordova.memorywarnings",
+  "version": "1.0.0",
+  "description": "Plugin for memory warnings on iOS",
+  "cordova": {
+    "id": "com.servicetitan.cordova.memorywarnings",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "servicetitan",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "",
+  "license": "Apache 2.0"
+}
