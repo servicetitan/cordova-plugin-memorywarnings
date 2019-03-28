@@ -1,5 +1,5 @@
 {
-  "name": "com.servicetitan.cordova.memorywarnings",
+  "name": "cordova-plugin-memorywarnings",
   "version": "1.0.0",
   "description": "Plugin for memory warnings on iOS",
   "cordova": {
